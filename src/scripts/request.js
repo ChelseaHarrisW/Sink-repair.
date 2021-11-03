@@ -21,14 +21,15 @@ export const Requests = () => {
     let html = `
         <ul>
             ${
-                requests.map(convertRequestToListElement).join("")
+                requests.map(convertRequestToListElement).join("") 
             }
         </ul>
     `
     return html
 }
 
-//10. let html, 11. be an unoredred list 12.that returns a copy (.map() of the convertRequestToListElements function. see the fx on line 5 for context)
+//10. let html, innerating through request 12.that returns a copy. then passes in the fx of convertRequestToListElements function. see the fx on line 5 for context)
+//and joins it
 // 17. return the html
 
 
